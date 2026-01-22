@@ -34,7 +34,7 @@ password database user: r5QJ_tvqb$W2ZC#
 - Variables de entorno en .env
 
 ## Frontend
-- Estructura de archivos creada (index.html, style.css, script.js)
+- Estructura de archivos creada sin contenido (index.html, style.css, script.js)
 - No conectado aún con backend
 
 ## Próximo Paso
