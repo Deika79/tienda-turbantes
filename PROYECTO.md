@@ -28,20 +28,17 @@ password database user: r5QJ_tvqb$W2ZC#
 
 ## Backend
 - Servidor Node.js + Express funcionando
-- Ruta GET /api/products devuelve JSON desde MongoDB
-- MongoDB Atlas conectado con Mongoose
+- Ruta GET /api/products debería devolver productos desde MongoDB
+- MongoDB Atlas conectado con Mongoose **(problema: los cambios recientes no se reflejan)**
 - Modelo Product creado
 - Variables de entorno en .env
 
 ## Frontend
-- Estructura de archivos creada sin contenido (index.html, style.css, script.js)
-- No conectado aún con backend
+- HTML, CSS y JS creados
+- Fetch a /api/products funcionando localmente
+- Mostrando las tarjetas de turbantes
 
 ## Próximo Paso
-- Hacer fetch desde frontend a /api/products
-- Mostrar turbantes dinámicamente en HTML
-- Estilizar con CSS básico
-
-## Deploy
-- Backend: pendiente (Render o Railway)
-- Frontend: pendiente (Vercel)
+- Revisar conexión a MongoDB y URI
+- Ver por qué los cambios en Atlas no se reflejan
+- Solucionar antes de deploy
