@@ -42,3 +42,14 @@ password database user: r5QJ_tvqb$W2ZC#
 - Revisar conexión a MongoDB y URI
 - Ver por qué los cambios en Atlas no se reflejan
 - Solucionar antes de deploy
+
+## Seguridad
+- Archivo .env eliminado del repositorio
+- .gitignore configurado para ignorar variables de entorno
+- Credenciales de MongoDB regeneradas tras exposición
+
+## Notas de Desarrollo
+- El backend debe reiniciarse manualmente para reflejar cambios
+- Ctrl + C para detener el servidor
+- node src/index.js para arrancarlo de nuevo
+- En el futuro se usará nodemon para auto-reload
